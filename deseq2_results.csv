@@ -1,0 +1,6 @@
+gene,log2FoldChange,pvalue,padj
+acrA,2.4,0.0002,0.001
+blaTEM,-1.2,0.03,0.05
+tolC,1.8,0.002,0.004
+marA,2.0,0.005,0.01
+ompF,-2.1,0.001,0.003
