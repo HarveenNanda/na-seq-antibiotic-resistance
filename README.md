@@ -1,20 +1,24 @@
 # RNA-Seq Analysis of Antibiotic Resistance in Bacteria
 
-This project analyzes RNA-Seq data from *E. coli* strains exposed to antibiotics. Differentially expressed resistance genes were identified using R and DESeq2.
+This project analyzes RNA-Seq data from *E. coli* strains exposed to antibiotics. The goal is to identify differentially expressed resistance genes using R and DESeq2.
 
-## Tools Used
+## 🧪 Tools Used
 - R, DESeq2
-- Public Dataset (example): NCBI GEO - GSE9006
+- GEO Sample Dataset: [GSE9006](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE9006)
 
-## Steps
-1. Load count data and sample metadata
-2. Run differential expression analysis using DESeq2
-3. Visualize results using volcano plot and heatmap
+## 📂 Folder Structure
+- `scripts/`: Contains the R script for analysis
+- `results/`: Output files (CSV, plots)
 
-## Results
-- `deseq2_results.csv`: Table of differentially expressed genes
-- `volcano_plot.png`: Visualizes most significant genes
-- `heatmap.png`: Compares expression across samples
+## 🚀 Steps
+1. Import count and metadata
+2. Run DESeq2 for differential gene expression
+3. Plot volcano plot and heatmap
 
-## Skills Demonstrated
-- RNA-Seq, Bioinformatics, R Programming, Data Visualization
+## 📊 Output
+- `deseq2_results.csv`: DE genes
+- `volcano_plot.png`: Significant gene visualization
+- `heatmap.png`: Sample expression heatmap
+
+## 💡 Skills Demonstrated
+RNA-Seq analysis, R programming, data visualization, differential expression analysis
